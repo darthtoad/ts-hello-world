@@ -1,0 +1,12 @@
+var greeting = "Hello world!";
+alert(greeting);
+var firstNumber = parseFloat(prompt('Gimme a number.'));
+var secondNumber = parseFloat(prompt('Gimme another number.'));
+var sum = firstNumber + secondNumber;
+alert("The sum of your two numbers is: " + sum);
+var difference = firstNumber - secondNumber;
+alert("The difference of your two numbers is: " + difference);
+var product = firstNumber * secondNumber;
+alert("The product of your two numbers is: " + product);
+var factor = firstNumber / secondNumber;
+alert("The factor of your two nmbers is: " + factor);
